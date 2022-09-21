@@ -1,0 +1,53 @@
+header{
+    background: black;
+}
+section{
+    background: black;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x:hidden;
+    
+}
+h1{
+    cursor: pointer;
+    color: #b7b7b7;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5pt;    
+    
+}
+h1:hover {
+    color: rgb(209, 64, 11);
+}
+nav ul li:hover{
+    color: rgb(209, 64, 11);
+}
+
+
+p{
+    color: #b7b7b7; ;
+   
+}
+#bottem_item1{
+    transform: scale(.8);
+}
+#bottem_item2{
+    transform: scale(.8);
+
+}
+.para {
+    font-family: Roboto, sans-serif;
+    font-size:x-large;
+    color:#b7b7b7;
+    font-weight: 800;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  
+
+ 

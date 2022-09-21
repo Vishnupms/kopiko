@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Kopico USA</title>
+  <link rel="icon" type="image/png" href="Kopico-img/kopiko.png">
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="row text-white p-3">
+      <div class="container col-md-6 text-center mt-4">
+        <h1>KOPIKO USA</h1>
+        <p style="letter-spacing: 3pt;">WORLD'S #1 COFFEE CANDY & COFFEE MIX</p>
+      </div>
+      <hr id="line1">
+
+
+      <!--Navbar-->
+
+      <nav class="navbar navbar-expand-lg fw-1 navbar-light align-center">
+
+
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scrollnav" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase text-white" aria-current="page" href="#">home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" id="navbarScrollingDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  COLLECTIONS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">cofee</a></li>
+                  <li><a class="dropdown-item" href="#">cofee mix</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase text-light " aria-current="page" href="#">shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase text-white" aria-current="page" href="#">news&updates</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase text-white" aria-current="page" href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase text-white" aria-current="page" href="#">contact us</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--body-->
+
+  <div> <img src="Kopico-img/Top-body.png" class="img-fluid w-100" alt="Kopico image">
+  </div>
+  <section>
+
+    <div class="row text-white p-5 d-flex justify-content-center">
+      <div class="col-md-12 text-center  fs-5 pt-5" id="bottem_item1">
+        <br><br>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <p class="para">Kopiko, is the pinoneer of coffee products like coffee candy and coffee mix, which has been the
+          nation’s favorite <br> for over 35 years and currently being exported to more than 80 countries all over the
+          world.</p>
+        <p class="para">Our products contain extract from real coffee beans from Java Island.</p>
+      </div>
+      <div>
+        <div class="container" id="bottem_item2">
+          <img src="Kopico-img/Bottom-img.webp" class="img-fluid" alt="Bottom image">
+        </div>
+      </div>
+      <div class="container m-5 text-center p-5">
+        <a href="https://www.facebook.com/TakariUSA"> <img src="Kopico-img/fbicon.png" href class="img-fluid m-5"
+            alt="Responsive image"></a>
+        <a href="https://www.instagram.com/takari_international/"><img src="Kopico-img/instaicon.png"
+            class="img-fluid m-5" alt="Responsive image"></a>
+        <a href="https://www.linkedin.com/company/takari-international/"> <img src="Kopico-img/linedin.png"
+            class="img-fluid m-5" alt="Responsive image"></a>
+        <a href="https://www.youtube.com/channel/UC2D_TJE-BNrzoq7jpoghitg"> <img src="Kopico-img/Youtube.png"
+            class="img-fluid m-5" alt="Responsive image"></a>
+      </div>
+      <div>
+        <div class="container  text-center ">
+          <p>Copyright &copy; <a class="text-white" href="https://kopikousa.com/"> KOPIKO USA</a> | Signify Dark By <a
+              class="text-white" href="https://wenthemes.com/"> WEN Themes</a></p>
+
+
+
+
+
+
+        </div>
+        <div>
+          <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+  </section>
+  <script>
+    let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous">
+    
+  </script>
+</body>
+
+</html>
